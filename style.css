@@ -127,3 +127,19 @@ button {
     color: white;
     font-weight: bold;
 }
+
+input {
+    border: 1px #E5E7EB;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 1px 2px #888888;
+}
